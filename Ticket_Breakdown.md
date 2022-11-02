@@ -44,7 +44,7 @@ Create another middleware that calls on that api model function and saves the re
 
 #### Ticket 4
 EstimatedTime: 30 minutes<br/>
-In the api model, create a addCustomId function, with the parameters `agent_id` and `custom_id` that will call onto the database, and where the `agent_id` matches, will update the database for the `custom_id`. This should return the newly created database object, mostlikely with the function before that leftJoined the Facilities table and the Agents table.
+In the api model, create a addCustomId function, with the parameters `agent_id` and `custom_id` that will call onto the database, and where the `agent_id` matches, will update the database for the `custom_id`. This should return the newly created database object, mostlikely with the created function that leftJoined the Facilities and Agents tables.
 
 #### Ticket 5
 EstimatedTime: 10 minutes<br/>
