@@ -17,8 +17,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 api - where .POST and .GET requests are broadly created<br/>
-middleware - called in the api to check for validity, and that check against the model responses<br/>
-model - files that interact with the database<br/>
+middleware - called in the api to check for information validity, and to check against the responses from the model<br/>
+model - file that interact with the database<br/>
 
 
 #### Ticket 1
